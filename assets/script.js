@@ -5,7 +5,6 @@ gsap.to('.imgDiv', {
     width: "100%",
     repeat: -1
 })
-
 gsap.to('#text h1', {
     duration: 2,
     stagger: 2,
