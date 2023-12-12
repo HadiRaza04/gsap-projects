@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #dadada;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card {
+    width: 18%;
+    height: 60%;
+    background-color: black;
+    margin: 5px;
+    overflow: hidden;
+    position: relative;
+}
+#image {
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    background-color: blueviolet;
+    overflow: hidden;
+}
+#image img {
+    height: 100%;
+}
+#text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 0%;
+    width: 100%;
+    position: absolute;
+    color: #dadada;
+    overflow: hidden;
+    font-size: 35px;
+    background-color: rgba(0, 0, 255, 0.459);
+}
+#text a {
+    text-decoration: none;
+    color: #dadada;
+}

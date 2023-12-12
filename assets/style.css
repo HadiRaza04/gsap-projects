@@ -9,7 +9,7 @@ html, body {
     background-color: #d1cfcf;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column
 }
 #lists {
     width: 100%;
